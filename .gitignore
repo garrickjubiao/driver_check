@@ -1,0 +1,37 @@
+# OS specific
+
+.DS_Store
+.Trinity
+.appledouble
+.dsc
+.local
+.net
+.ssh
+.volatile
+
+heads
+idea
+
+# Dependencies
+vendor/
+node_modules/
+npm-debug.log.*
+package-lock.json
+
+# Testing
+coverage/
+*,lvm
+*,lvp
+*.lvpj*.
+
+# Environment
+dist/
+*.env
+
+# Editor
+.vscode/
+# $Root/.svn/
+
+# Build
+build/
+
